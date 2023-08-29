@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<App />}></Route>
-        <Route path="/detailPage" element={<DetailPage />}></Route>
+        <Route path="/detailPage/:id" element={<DetailPage />}></Route>
       </Routes>
     </HashRouter>
   </React.StrictMode>

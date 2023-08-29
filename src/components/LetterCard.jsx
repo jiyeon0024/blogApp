@@ -3,15 +3,12 @@ import Button3 from "./Button3";
 import Button from "./Button";
 import { Link } from "react-router-dom";
 
-function LetterCard() {
+function LetterCard({ i }) {
   return (
     <div>
-      <h1 className="text-blue-600 text-xs font-bold ">UV Light at Home</h1>
-      <p className="w-80">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis minus
-        eaque, adipisci quos culpa facilis aut architecto magni ipsa fugit vel
-      </p>
-      <Link to="/detailPage">
+      <h1 className="text-blue-600 text-xm font-bold "> {i.title}</h1>
+      <p className="text-xs text-neutral-700">{i.content.substr(0, 120)}</p>
+      <Link to={`/detailPage/${i.id}`}>
         <Button3>Read More</Button3>
       </Link>
     </div>

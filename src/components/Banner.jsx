@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function Banner() {
   return (
-    <div className=" px-8  py-8  bg-no-repeat bg-cover bg-[url('https://images.unsplash.com/photo-1605774337664-7a846e9cdf17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80')]">
+    <div className=" px-52  py-8  bg-no-repeat bg-cover bg-[url('https://images.unsplash.com/photo-1605774337664-7a846e9cdf17?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80')]">
       <h1 className="text-3xl text-blue-600 font-extrabold pt-32">
         Time to Get Your House
       </h1>

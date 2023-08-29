@@ -2,26 +2,73 @@ import React from "react";
 import Button2 from "./Button2";
 import { Link } from "react-router-dom";
 
-function SmallCard() {
+function SmallCard({ i }) {
+  let time = new Date(i.date);
+  const days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  const month = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+
+  let day = days[time.getDay()];
+  let mon = month[time.getMonth()];
+  let year = time.getFullYear();
+  let date = time.getDate();
+
   return (
-    <div className="flex flex-col gap-2">
-      <img
-        src="https://images.unsplash.com/photo-1581994574720-f60299904853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
-        alt=""
-        className="bg-violet-400 w-60 h-40 rounded-md"
-      />
-      <h1 className="text-blue-600 text-lg font-bold w-52">
-        Time to Get Your House Clean and in Order
-      </h1>
-      <p className="w-60 text-xs text-neutral-700">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam magni
-        animi temporibus ipsam ullam laudantium? Saepe qui officia, quia,
-        repudiandae pariatur, quo delectus necessitatibus mollitia quam
-        reiciendis tempore! Doloremque, sapiente.
-      </p>
-      <Link to="/detailPage">
-        <Button2>Read Article</Button2>
-      </Link>
+    // <div className="flex flex-col ">
+    //   <div className="h-2/3 w-full relative">
+    //     <img
+    //       src={i.image}
+    //       alt=""
+    //       className=" rounded-md object-cover absolute w-full h-full"
+    //     />
+    //   </div>
+
+    //   <h1 className="text-blue-600 text-lg font-bold w-52">{i.title}</h1>
+    //   <p className="w-60 text-xs text-neutral-700">
+    //     {i.content.substr(0, 200)}
+    //   </p>
+    //   <Link to={`/detailPage/${i.id}`}>
+    //     <Button2>Read Article</Button2>
+    //   </Link>
+    // </div>
+    <div className="w-full sm:w-[35.5%] lg:w-[20%] h-[320px] mb-10 ">
+      <div className="h-2/3 w-full relative">
+        <img
+          src={i.image}
+          alt=""
+          className="rounded-md object-cover absolute w-full h-full "
+        />
+      </div>
+
+      <h1 className="text-blue-600 text-lg font-bold  mt-2 mb-2 ">{i.title}</h1>
+      <p className=" text-xs text-neutral-700">{i.content.substr(0, 100)}</p>
+      <div className="flex justify-between items-center  mt-2 mb-2 ">
+        <Link to={`/detailPage/${i.id}`}>
+          <Button2>Read Article</Button2>
+        </Link>
+
+        <p className="text-neutral-700 text-xs">{`${date} . ${day} . ${mon} . ${year}`}</p>
+      </div>
     </div>
   );
 }
