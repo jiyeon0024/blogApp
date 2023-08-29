@@ -16,6 +16,10 @@ function DetailPage() {
     })();
   }, []);
 
+  const handleRemove = async () => {
+    let res = await api.delete(`posts?id=${id}`);
+  };
+
   return (
     <div>
       <Nav />
@@ -28,6 +32,7 @@ function DetailPage() {
         <p className="w-96 text-neutral-700">{data.content}</p>
       </div>
       <div className="flex flex-col items-center"></div>
+      <button onClick={handleRemove}>DELETE POST </button>
     </div>
   );
 }

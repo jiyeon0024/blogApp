@@ -134,6 +134,102 @@
       "date": 1690848000000,
       "category": "advice",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est augue, imperdiet eu congue a, porttitor sit amet orci. Etiam tempus convallis auctor. Vivamus sodales turpis vel diam varius scelerisque. Quisque vitae est vitae tellus scelerisque feugiat. Nulla aliquet urna nec sapien eleifend viverra. Phasellus nec imperdiet ex. Duis sagittis urna sollicitudin, viverra sapien in, dapibus lacus. Fusce ornare, ipsum vitae commodo sollicitudin, urna mauris luctus justo, nec porttitor mi tellus et neque. Phasellus eu venenatis dolor. Curabitur a pellentesque massa. Vivamus eget urna hendrerit, cursus leo at, lacinia eros. Nam rhoncus lacus sit amet libero ullamcorper, nec dignissim arcu sodales. \n Quisque at lacus ut est dignissim efficitur consequat ut velit. Donec sapien diam, cursus et sapien ac, luctus eleifend tortor. Maecenas posuere ex quam, vitae ultricies libero pretium at. Proin ut ante at ex volutpat sollicitudin. Aenean ex felis, lobortis at risus nec, laoreet pulvinar magna. Duis accumsan, nisl interdum sodales aliquam, lorem nisl lacinia elit, eget convallis risus est sit amet turpis. Maecenas leo sem, vestibulum a lacinia consequat, bibendum quis diam. Maecenas pellentesque turpis sapien, id porta est ultricies sed. Cras a tortor magna. Curabitur auctor lectus ac pulvinar pretium. Aliquam sed interdum nisl. Praesent dignissim auctor quam a condimentum. Suspendisse sodales, urna et euismod mollis, neque turpis porta est, non ultricies ipsum mi in lacus."
+    },
+    {
+      "title": "sdfsdf",
+      "category": "advice",
+      "content": "sdf",
+      "authorId": "1",
+      "image": "https://source.unsplash.com/random",
+      "id": 16
+    },
+    {
+      "title": "jgjgmgnbnvb",
+      "category": "advice",
+      "content": "mjhmgvnhvnbvnbvn",
+      "authorId": "1",
+      "image": "https://source.unsplash.com/g9wCI64k2yw",
+      "id": 17
+    },
+    {
+      "title": "hgghgmhg",
+      "category": "advice",
+      "content": ",mnj,,jb",
+      "authorId": "1",
+      "image": "n.,n,b",
+      "id": 18
+    },
+    {
+      "title": "hgghgmhg",
+      "category": "advice",
+      "content": ",mnj,,jb",
+      "authorId": "1",
+      "image": "n.,n,b",
+      "id": 19
+    },
+    {
+      "title": "hgghgmhg",
+      "category": "advice",
+      "content": ",mnj,,jb",
+      "authorId": "1",
+      "image": "n.,n,b",
+      "id": 20
+    },
+    {
+      "title": "hgghgmhg",
+      "category": "advice",
+      "content": ",mnj,,jb",
+      "authorId": "1",
+      "image": "n.,n,b",
+      "id": 21
+    },
+    {
+      "title": "sdf",
+      "category": "advice",
+      "content": "sdf",
+      "authorId": "1",
+      "image": "1111111111111111111111",
+      "id": 22
+    },
+    {
+      "title": "sdf",
+      "category": "advice",
+      "content": "sdf",
+      "authorId": "1",
+      "image": "1111111111111111111111",
+      "id": 23
+    },
+    {
+      "title": "sdf",
+      "category": "advice",
+      "content": "sdf",
+      "authorId": "1",
+      "image": "1111111111111111111111",
+      "id": 24
+    },
+    {
+      "title": "sdf",
+      "category": "advice",
+      "content": "sdf",
+      "authorId": "1",
+      "image": "1111111111111111111111",
+      "id": 25
+    },
+    {
+      "title": "sdfdsf",
+      "category": "advice",
+      "content": "sdf",
+      "authorId": "1",
+      "image": "sdf",
+      "id": 26
+    },
+    {
+      "title": "11111111111111111111",
+      "category": "advice",
+      "content": "11111111111111",
+      "authorId": "1",
+      "image": "1111111111111111111111111",
+      "id": 27
     }
   ],
   "comments": [
@@ -147,7 +243,9 @@
   "authors": [
     {
       "id": 1,
-      "name": "Jiyeon Park"
+      "name": "Jiyeon Park",
+      "username": "jiyeon",
+      "pw": "jiyeon1234"
     },
     {
       "id": 2,

@@ -25,10 +25,6 @@ server.use((req, res, next) => {
     }
   }
 
-  if (req.method === "POST" && req.path === "/posts") {
-    req.body.image = "https://source.unsplash.com/random";
-  }
-
   let oldJson = res.json;
   res.json = function (data) {
     oldJson.call(this, {

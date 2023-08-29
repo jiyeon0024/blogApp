@@ -6,9 +6,27 @@ const api = () => {
         .then((data) => data)
         .catch((err) => err);
     },
-    post: () => {},
+    post: async (url, data) => {
+      return fetch("http://localhost:3000/" + url, {
+        method: "POST",
+        body: data,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      })
+        .then((res) => {
+          return res.json();
+        })
+        .catch((err) => err);
+    },
     put: () => {},
-    delete: () => {},
+    delete: async (url) => {
+      return fetch("http://localhost:3000/" + url, {
+        method: "DELETE",
+      })
+        .then((res) => res.json())
+        .catch((err) => err);
+    },
   };
 };
 
